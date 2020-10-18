@@ -8,6 +8,11 @@ setup(
     author_email = "17097231932@163.com",
     url = "https://github.com/17097231932/Stream.py",
     py_modules=['stream'],
+    entry_points={
+        'console_scripts': [
+            'stream=stream:cli',
+        ],    
+    },
     long_description = """# Stream.py
 Java 8 Stream API/Collectors/Function Interface/Optional 在 Python 3.6+ 的实现
 
